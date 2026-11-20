@@ -14,18 +14,6 @@ receive mail, one at a time or as lists of any size, and read the results.
 
 ## Install
 
-Not published yet: until the first release is tagged, `go get` cannot find it. Clone the repository and point your
-module at your copy:
-
-```bash
-git clone https://github.com/verifyinboxes/verifyinboxes-go
-cd your-module
-go mod edit -require github.com/verifyinboxes/verifyinboxes-go@v0.1.0 \
-  -replace github.com/verifyinboxes/verifyinboxes-go=/path/to/verifyinboxes-go
-```
-
-Once released:
-
 ```bash
 go get github.com/verifyinboxes/verifyinboxes-go
 ```
